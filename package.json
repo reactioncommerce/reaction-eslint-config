@@ -1,0 +1,36 @@
+{
+  "name": "@reactioncommerce/eslint-config",
+  "version": "0.0.0-development",
+  "description": "The ESLint config used by Reaction Commerce, following our style guide",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reactioncommerce/reaction-eslint-config"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "reaction",
+    "reactioncommerce"
+  ],
+  "author": "Reaction Commerce (https://reactioncommerce.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reactioncommerce/reaction-eslint-config/issues"
+  },
+  "homepage": "https://github.com/reactioncommerce/reaction-eslint-config",
+  "dependencies": {},
+  "devDependencies": {
+    "semantic-release": "^12.4.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 4",
+    "eslint-plugin-import": ">= 2",
+    "eslint-plugin-jsx-a11y": ">= 6",
+    "eslint-plugin-react": ">= 7"
+  },
+  "engines": {
+    "node": ">= 4"
+  }
+}
