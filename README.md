@@ -2,6 +2,8 @@
 
 [![CircleCI](https://circleci.com/gh/reactioncommerce/reaction-eslint-config/tree/master.svg?style=svg)](https://circleci.com/gh/reactioncommerce/reaction-eslint-config/tree/master)
 
+[![NPM](https://nodei.co/npm/@reactioncommerce/eslint-config.png)](https://npmjs.org/package/@reactioncommerce/eslint-config)
+
 The ESLint config used by Reaction Commerce JavaScript apps and packages, following our code style guide.
 
 ## How To Use
