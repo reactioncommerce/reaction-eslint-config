@@ -54,7 +54,7 @@ workflows:
       - build:
           context: reaction
       - deploy:
-          context: reaction
+          context: reaction-publish-semantic-release
           requires:
             - build
           filters:
