@@ -184,6 +184,7 @@
       "error",
       "always"
     ],
+    "no-return-await": "error",
     "no-script-url": 2,
     "no-self-compare": 2,
     "no-sequences": 2,
