@@ -222,7 +222,7 @@
       }
     ],
     "valid-jsdoc": [
-      0,
+      2,
       {
         "prefer": {
           "arg": "param",
