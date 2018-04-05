@@ -1,7 +1,8 @@
 {
   "parser": "babel-eslint",
   "extends": [
-    "plugin:jsx-a11y/recommended"
+    "plugin:jsx-a11y/recommended",
+    "plugin:promise/recommended"
   ],
   "env": {
     "browser": true,
@@ -37,6 +38,7 @@
     "import",
     "jest",
     "jsx-a11y",
+    "promise",
     "react"
   ],
   "rules": {

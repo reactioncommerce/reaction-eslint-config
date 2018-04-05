@@ -28,6 +28,7 @@
     "eslint": ">=4",
     "eslint-plugin-import": ">=2",
     "eslint-plugin-jsx-a11y": ">=6",
+    "eslint-plugin-promise": ">=3",
     "eslint-plugin-react": ">=7"
   },
   "engines": {
