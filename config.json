@@ -99,7 +99,7 @@
       "prefer-double"
     ],
     "react/no-deprecated": 1,
-    "react/boolean-prop-naming": ["error", { "rule": "^(is|has|should)[A-Z]([A-Za-z0-9]?)+" }],
+    "react/boolean-prop-naming": ["error", { "rule": "^(can|has|is|should)[A-Z]([A-Za-z0-9]?)+" }],
     "react/display-name": 1,
     "react/forbid-prop-types": 0,
     "react/jsx-boolean-value": 0,
