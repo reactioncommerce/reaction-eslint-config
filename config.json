@@ -600,6 +600,13 @@
       }
     ],
     "template-curly-spacing": "error",
-    "id-length": "warn"
+    "id-length": [
+      "warn",
+      {
+        "exceptions": [
+          "_"
+        ]
+      }
+    ]
   }
 }
