@@ -550,7 +550,7 @@
     "react/sort-comp": "warn",
     "react/sort-prop-types": "warn",
     "require-jsdoc": [
-      "warn",
+      "error",
       {
         "require": {
           "ArrowFunctionExpression": false,
