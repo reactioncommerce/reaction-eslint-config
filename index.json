@@ -147,7 +147,7 @@
     ],
     "guard-for-in": "error",
     "id-length": [
-      "warn",
+      "error",
       {
         "exceptions": [
           "_"
