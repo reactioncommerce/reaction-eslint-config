@@ -200,7 +200,7 @@
     ],
     "keyword-spacing": "error",
     "max-len": [
-      "warn",
+      "error",
       160,
       2,
       {
