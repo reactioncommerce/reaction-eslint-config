@@ -469,7 +469,7 @@
       }
     ],
     "prefer-const": [
-      "warn",
+      "error",
       {
         "destructuring": "any",
         "ignoreReadBeforeAssign": false
