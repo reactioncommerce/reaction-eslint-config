@@ -1,6 +1,6 @@
 {
   "name": "@reactioncommerce/eslint-config",
-  "version": "0.0.0-development",
+  "version": "2.0.0",
   "description": "The ESLint config used by Reaction Commerce, following our style guide",
   "scripts": {},
   "repository": {
