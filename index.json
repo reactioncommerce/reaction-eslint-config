@@ -110,12 +110,6 @@
       "error",
       "never"
     ],
-    "consistent-return": [
-      "warn",
-      {
-        "treatUndefinedAsUnspecified": true
-      }
-    ],
     "curly": [
       "error",
       "multi-line"
