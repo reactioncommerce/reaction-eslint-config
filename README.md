@@ -4,7 +4,7 @@
 
 [![NPM](https://nodei.co/npm/@reactioncommerce/eslint-config.png)](https://npmjs.org/package/@reactioncommerce/eslint-config)
 
-The ESLint config used by Reaction Commerce JavaScript apps and packages, following our code style guide.
+The ESLint config used by Reaction Commerce JavaScript apps and packages, following our [code style guide](https://docs.reactioncommerce.com/docs/styleguide).
 
 ## How To Use
 
