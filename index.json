@@ -40,7 +40,8 @@
     "jest",
     "jsx-a11y",
     "promise",
-    "react"
+    "react",
+    "react-hooks"
   ],
   "rules": {
     "array-bracket-spacing": [
@@ -550,6 +551,8 @@
     "react/self-closing-comp": "error",
     "react/sort-comp": "error",
     "react/sort-prop-types": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
     "require-jsdoc": [
       "error",
       {
