@@ -21,20 +21,44 @@
   "homepage": "https://github.com/reactioncommerce/reaction-eslint-config",
   "dependencies": {},
   "devDependencies": {
-    "semantic-release": "^15.13.19"
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.5",
+    "semantic-release": "^17.0.7"
   },
   "peerDependencies": {
-    "eslint": ">=5.16.0",
-    "babel-eslint": ">=10",
-    "eslint-plugin-import": ">=2",
-    "eslint-plugin-jest": ">=23",
-    "eslint-plugin-jsx-a11y": ">=6",
-    "eslint-plugin-node": ">=9",
-    "eslint-plugin-promise": ">=4",
-    "eslint-plugin-react": ">=7",
-    "eslint-plugin-react-hooks": ">=1.6"
+    "eslint": ">=7",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.13.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.2"
   },
   "engines": {
     "node": ">=8.1.0"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "prettier": {
+    "arrowParens": "always"
+  },
+  "release": {
+    "branches": [
+      "master"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
