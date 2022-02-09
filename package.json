@@ -28,9 +28,9 @@
   },
   "peerDependencies": {
     "eslint": ">=7",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jest": "^23.13.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0",
