@@ -28,14 +28,14 @@
   },
   "peerDependencies": {
     "eslint": ">=7",
-    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-import": "~2.25.4",
     "eslint-plugin-jest": "^26.1.0",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-jsx-a11y": "~6.5.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-promise": "~6.0.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0",
-    "eslint-plugin-react": "^7.20.0",
-    "eslint-plugin-react-hooks": "^4.0.2"
+    "eslint-plugin-react": "~7.28.0",
+    "eslint-plugin-react-hooks": "~4.3.0"
   },
   "engines": {
     "node": ">=8.1.0"
