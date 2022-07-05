@@ -38,11 +38,11 @@ Or in a root file named `.eslintrc.cjs`:
 
 ```js
 module.exports = {
-  extends: "@reactioncommerce/eslint-config/node"
+  extends: "@reactioncommerce/eslint-config/node",
 };
 ```
 
-### React Projects
+### React Projects - Javascript
 
 Follow these instructions for Webpack React projects, whether they use CommonJS or ECMAScript modules.
 
@@ -70,7 +70,39 @@ Or in a root file named `.eslintrc.cjs`:
 
 ```js
 module.exports = {
-  extends: "@reactioncommerce/eslint-config/browser-react"
+  extends: "@reactioncommerce/eslint-config/browser-react",
+};
+```
+
+### React Projects - Typescript
+
+Follow these instructions for React projects that are written in Typescript.
+
+```sh
+npm install --save-dev eslint @reactioncommerce/eslint-config eslint-plugin-import eslint-plugin-promise eslint-plugin-you-dont-need-lodash-underscore eslint-plugin-jsx-a11y eslint-config-react-app @typescript-eslint/eslint-plugin @typescript-eslint/parser
+```
+
+Then set your ESLint config either in package.json:
+
+```json
+"eslintConfig": {
+  "extends": "@reactioncommerce/eslint-config/browser-react-ts"
+}
+```
+
+Or in a root file named `.eslintrc` if your project does not have a package.json:
+
+```json
+{
+  "extends": "@reactioncommerce/eslint-config/browser-react-ts"
+}
+```
+
+Or in a root file named `.eslintrc.cjs`:
+
+```js
+module.exports = {
+  extends: "@reactioncommerce/eslint-config/browser-react-ts",
 };
 ```
 
